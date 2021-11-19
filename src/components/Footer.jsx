@@ -5,9 +5,9 @@ let year = date.getFullYear()
 
 const Footer = () => {
     return (
-        <div className="footer">
-            <h4>@Copyright {year}</h4>
-        </div>
+       <footer>
+            <p>Copyright ©{year}</p>
+        </footer>
     )
 }
 

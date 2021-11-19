@@ -1,9 +1,10 @@
 import React from 'react'
 
 const List = () => {
-    return (
+
+    return ( 
         <div className="list">
-                <h3>Title</h3>
+                <h1>Title</h1>
                 <p>Contents of the card</p>
         </div>
     )
