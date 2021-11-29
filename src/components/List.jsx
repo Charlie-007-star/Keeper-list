@@ -1,13 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const List = () => {
-
+const List = (props) => {
     return ( 
         <div className="list">
-                <h1>Title</h1>
-                <p>Contents of the card</p>
+          <h1>{props.title}</h1>
+          <p>{props.content}</p>
         </div>
     )
 }
 
-export default List
+export default List;
